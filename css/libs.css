@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*
+    Здесь импортируются все CSS библиотеки
+    Можно импортить как CSS так и SASS файлы
+    Если CSS то расширение указывать не надо
+    */
+
+@import url(../libs/font-awesome-4.7.0/css/font-awesome.min.css);
+
+@import url(../libs/owl-carousel/owl.carousel.min.css);
+
+@import url(../libs/owl-carousel/owl.theme.default.min.css);

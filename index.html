@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobile First</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900" rel="stylesheet">
+
+    <!-- NProgress CSS -->
+    <link rel="stylesheet" href="libs/nprogress/nprogress.css">
+
+    <!-- NProgress JS -->
+    <script src="js/libs.min.js"></script>
+
+    <!-- CUSTOM AND LIBS -->
+    <script src="js/common.js"></script>
+    <script src="libs/nprogress/nprogress.js"></script>
+</head>
+
+<body>
+    <!-- NProgress START -->
+    <script>
+        $(document).ready(function () {
+            NProgress.start();
+            NProgress.set(0.5);
+        });
+    </script>
+
+
+
+    <header id="home">
+        <div class="menu">
+            <span class="bar"></span>
+        </div>
+
+        <nav class="nav">
+            <!-- <a href="index.html" class="logo">The Squeeze</a> -->
+            <div class="overlay">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main-text">
+            <h1>Welcome</h1>
+            <h2>The Squeeze</h2>
+            <a href="index.html" class="btn main-btn">Explore</a>
+        </div>
+    </header>
+
+<!-- last
+    <section class="our-story" id="story">
+        <div class="container">
+            <h1 class="custom-font">Discover</h1>
+            <h2 class="custom-font-secondary">Our Story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod temporibus corporis modi necessitatibus
+                sunt. Modi vitae soluta eius corporis expedita labore reprehenderit sed impedit nam. Alias, quibusdam
+                atque? Tempore, fugit.
+            </p>
+            <a href="index.html" class="btn btn-info1">Learn More</a>
+            <div class="store"></div>
+        </div>
+    </section> -->
+    
+    <section class="our-story" id="story">
+        <div class="container">
+            <div class="box">
+                <h1 class="custom-font">Discover</h1>
+                <h2 class="custom-font-secondary">Our Story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod temporibus corporis modi necessitatibus
+                    sunt. Modi vitae soluta eius corporis expedita labore reprehenderit sed impedit nam. Alias, quibusdam
+                    atque? Tempore, fugit.
+                </p>
+                <a href="index.html" class="btn btn-info1">Learn More</a>
+            </div>
+            <div class="box">
+                <div class="store"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="fresh-ingredients between-sec">
+        <div class="container">
+            <h1 class="custom-font">Fresh</h1>
+            <h2 class="custom-font-secondary between-sec-color">Ingridients</h2>
+        </div>
+    </section>
+
+
+
+    <section class="our-menu" id="menu">
+        <div class="container">
+            <h1 class="custom-font">Discover</h1>
+            <h2 class="custom-font-secondary">Our Menu</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod temporibus corporis modi necessitatibus
+                sunt. Modi vitae soluta eius corporis expedita labore reprehenderit sed impedit nam. Alias, quibusdam
+                atque? Tempore, fugit.
+            </p>
+            <a href="index.html" class="btn btn-info">Full Menu</a>
+            <div class="image-group">
+                <img src="./img/lemonade.jpeg" alt="lemonade">
+                <img src="./img/lemonade2.jpeg" alt="lemonade2">
+                <img src="./img/lemonade3.jpeg" alt="lemonade3">
+                <img src="./img/lemonade4.jpeg" alt="lemonade4">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="citrus-goodness between-sec">
+        <div class="container">
+            <h1 class="custom-font">Citrus</h1>
+            <h2 class="custom-font-secondary between-sec-color">Goodness</h2>
+        </div>
+    </section>
+
+
+
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <h1 class="custom-font">Contact</h1>
+            <h2 class="custom-font-secondary">Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod temporibus corporis modi necessitatibus
+                sunt. Modi vitae soluta eius corporis expedita labore reprehenderit sed impedit nam. Alias, quibusdam
+                atque? Tempore, fugit.
+            </p>
+            <form action="">
+                <input type="text" class="input" placeholder="Full Name" name="name" required>
+                <input type="email" class="input" placeholder="Email" name="email" required>
+                <textarea name="message" class="text-area" id="" cols="30" rows="10"
+                    placeholder="What can we help you with?"></textarea>
+                <input value="Send" type="submit" class="input btn btn-submit">
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="locations">
+            <h4>Locations</h4>
+            <div class="location">
+                <h5>500 Lemonade Rd <br>
+                    Manhattan, NY - 11111
+                </h5>
+            </div>
+        </div>
+        <div class="hours">
+            <h4>Hours</h4>
+            <div class="days">
+                <h5>Monday - Saturday <br>
+                    10:30am - 8:00pm
+                </h5>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- NProgress DONE -->
+    <script>
+        $(window).ready(function () {
+            NProgress.done();
+        });
+    </script>
+</body>
+
+</html>
