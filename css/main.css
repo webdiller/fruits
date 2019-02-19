@@ -61,6 +61,13 @@ p {
   font-size: 1.6rem;
   font-weight: 300;
   color: var(--main-font-dark-gray);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-us form {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 a {
@@ -294,6 +301,8 @@ header {
   height: 6rem;
   line-height: 6rem;
   position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .overlay {
