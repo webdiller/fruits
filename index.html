@@ -6,31 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mobile First</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/libs.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900" rel="stylesheet">
-
-    <!-- NProgress CSS -->
-    <link rel="stylesheet" href="libs/nprogress/nprogress.css">
-
-    <!-- NProgress JS -->
-    <script src="js/libs.min.js"></script>
-
-    <!-- CUSTOM AND LIBS -->
-    <script src="js/common.js"></script>
-    <script src="libs/nprogress/nprogress.js"></script>
 </head>
 
 <body>
-    <!-- NProgress START -->
-    <script>
-        $(document).ready(function () {
-            NProgress.start();
-            NProgress.set(0.5);
-        });
-    </script>
-
-
+    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(53250967, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/53250967" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
     <div class="preloader" id="preloader">
         <div class="lds-dual-ring"></div>
     </div>
@@ -42,7 +26,7 @@
         </div>
 
         <nav class="nav">
-            <a href="index.html" class="logo">The Squeeze</a>
+            <a href="http://fruitbar.webdiller.ru" class="logo">The Squeeze</a>
             <div class="overlay">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -56,11 +40,11 @@
         <div class="main-text">
             <h1>Welcome</h1>
             <h2>The Squeeze</h2>
-            <a href="index.html" class="btn main-btn">Explore</a>
+            <a href="http://fruitbar.webdiller.ru" class="btn main-btn">Explore</a>
         </div>
     </header>
 
-<!-- last
+    <!-- last
     <section class="our-story" id="story">
         <div class="container">
             <h1 class="custom-font">Discover</h1>
@@ -73,14 +57,15 @@
             <div class="store"></div>
         </div>
     </section> -->
-    
+
     <section class="our-story" id="story">
         <div class="container">
             <div class="box">
                 <h1 class="custom-font">Discover</h1>
                 <h2 class="custom-font-secondary">Our Story</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod temporibus corporis modi necessitatibus
-                    sunt. Modi vitae soluta eius corporis expedita labore reprehenderit sed impedit nam. Alias, quibusdam
+                    sunt. Modi vitae soluta eius corporis expedita labore reprehenderit sed impedit nam. Alias,
+                    quibusdam
                     atque? Tempore, fugit.
                 </p>
                 <a href="#" class="btn btn-info1">Learn More</a>
@@ -110,7 +95,7 @@
                 sunt. Modi vitae soluta eius corporis expedita labore reprehenderit sed impedit nam. Alias, quibusdam
                 atque? Tempore, fugit.
             </p>
-            <a href="index.html" class="btn btn-info">Full Menu</a>
+            <a href="#" class="btn btn-info1">Full Menu</a>
             <div class="image-group">
                 <img src="./img/lemonade.jpeg" alt="lemonade">
                 <img src="./img/lemonade2.jpeg" alt="lemonade2">
@@ -170,14 +155,9 @@
         </div>
     </footer>
 
-
-
-    <!-- NProgress DONE -->
-    <script>
-        $(window).ready(function () {
-            NProgress.done();
-        });
-    </script>
+    <!-- CUSTOM AND LIBS -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
 </body>
 
 </html>

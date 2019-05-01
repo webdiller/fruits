@@ -17,7 +17,7 @@ $(".nav a").on("click", function () {
       mainTextH1.classList.add("animate-h1");
       mainTextH2.classList.add("animate-h2");
       mainTextMainBtn.classList.add("animate-btn");
-    },2000)
+    },1000)
   }
 
 });
